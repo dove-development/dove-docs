@@ -1,0 +1,19 @@
+site_name: Dove Protocol
+theme:
+    name: material
+    palette:
+        scheme: slate
+        primary: black
+    logo: assets/dove_black.svg
+    favicon: assets/dove_favicon.png
+    font:
+        text: Inter
+extra_css:
+    - stylesheets/extra.css
+nav:
+    - Home: index.md
+    - Token: token.md
+    - Borrowing: borrowing.md
+    - Savings: savings.md
+    - Liquidation: liquidation.md
+    - How It Works: how_it_works.md
