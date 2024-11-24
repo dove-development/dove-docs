@@ -1,5 +1,5 @@
 # Token
-The DOVE token is the ownership unit of the Dove DAO, which exercises full control over the Dove protocol. It was launched on 14 October 2024.
+The DOVE token is the ownership unit of the Dove DAO, which exercises full control over the Dove protocol. It was launched on 24 November 2024.
 
 ## Supply
 The initial supply of DOVE is 1,000,000. It follows a simple distribution:
@@ -65,10 +65,10 @@ The initial supply of DOVE is 1,000,000. It follows a simple distribution:
 ## Release Schedule
 DOVE token distribution follows a linear vesting schedule over a 1-year period, with a 30-day warmup period. The release schedule is fixed at protocol creation and cannot be changed by governance.
 
-- Launch (2024-10-14): The protocol is made live, with a circulating supply of 0 DOVE and an initial release rate of 0 DOVE/day.
-- Warmup period (2024-10-14 to 2024-11-14): The release rate increases linearly.
-- Linear vesting period (2024-11-14 to 2025-10-14): The release rate stabilizes at its maximum of 2,867.14 DOVE/day.
-- Vesting completion (2025-10-14): Total circulation reaches 1,000,000 DOVE, and distribution ends.
+- Launch (2024-11-24): The protocol is made live, with a circulating supply of 0 DOVE and an initial release rate of 0 DOVE/day.
+- Warmup period (2024-11-24 to 2024-12-24): The release rate increases linearly.
+- Linear vesting period (2024-12-24 to 2025-11-24): The release rate stabilizes at its maximum of 2,867.14 DOVE/day.
+- Vesting completion (2025-11-24): Total circulation reaches 1,000,000 DOVE, and distribution ends.
 
 <div style="max-width: 600px; margin: 0 auto;">
   <canvas id="doveSupplyChart"></canvas>
@@ -84,7 +84,7 @@ DOVE token distribution follows a linear vesting schedule over a 1-year period, 
             datasets: [{
                 label: 'Total Supply',
                 data: Array.from({length: 396}, function(_, i) {
-                    var date = new Date(2024, 9, 14);
+                    var date = new Date(2024, 11, 24);
                     date.setDate(date.getDate() + i);
                     var x = i;
                     var y;
