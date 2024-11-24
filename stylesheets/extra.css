@@ -1,0 +1,9 @@
+.md-header__topic:first-child {
+    font-weight: 700;
+}
+
+.md-typeset h1,
+.md-typeset h2,
+.md-typeset h3 {
+    font-weight: 700;
+}
